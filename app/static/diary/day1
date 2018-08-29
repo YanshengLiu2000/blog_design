@@ -1,0 +1,15 @@
+title:
+    Day1, build website and learn DP again
+
+tags:
+    dynamic programming;flask
+
+content:
+    Complete several questions in leetcode.
+    Modified about_me.html, diary_details.html, resume.html and header.html.
+    Add test_X.txt in diary folder.
+    Now header.html can jump to other relevant pages.
+    Review SQLAlchemy. I have to say that i totally forget how to use this lib. Can not believe i have used it last semester.
+
+
+

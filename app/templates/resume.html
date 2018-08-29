@@ -1,12 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>无名小站</title>
-</head>
-<body>
-<h1>NAV resume page!</h1>
+{#<!DOCTYPE html>#}
+{#<html lang="en">#}
+{#<head>#}
+{#    <meta charset="UTF-8">#}
+{#    <title>无名小站</title>#}
+{#</head>#}
+{#<body>#}
+{#<h1>NAV resume page!</h1>#}
+{##}
+{#<iframe src="/static/YL_Resume.pdf" style="width:718px; height:700px;" frameborder="0"></iframe>#}
+{#</body>#}
+{#</html>#}
 
-<iframe src="/static/YL_Resume.pdf" style="width:718px; height:700px;" frameborder="0"></iframe>
-</body>
-</html>
+
+
+{% extends "common/base.html" %}
+
+{% block content %}
+<h1>This is the resume page!'resume.html'</h1><br>
+    <iframe src="/static/YL_Resume.pdf" style="width:718px; height:700px;" frameborder="0"></iframe>
+
+{% endblock %}
