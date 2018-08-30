@@ -4,6 +4,9 @@ title:
 tags:
     dynamic programming;flask
 
+date:
+    2018/08/29
+
 content:
     Complete several questions in leetcode.
     Modified about_me.html, diary_details.html, resume.html and header.html.
