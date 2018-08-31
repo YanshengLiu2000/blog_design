@@ -1,9 +1,15 @@
+from flask_sqlalchemy import SQLAlchemy
+
 from . import main
 from flask import render_template
-
+from app import app, models
 @main.route('/',methods=['GET'])
 def home():
     diary_dict={}
+
+    db = SQLAlchemy(app)
+    for i in db.session.query(models.Diary).all():
+        print(i.tags)
     return render_template("home.html")
 
 @main.route('/resume',methods=['GET'])
