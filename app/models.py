@@ -19,7 +19,8 @@ class Diary(db.Model):
     name = db.Column(db.String)
     # relations=relationship('Relation',back_populates='diary')
     tags = db.relationship('Tag', back_populates='diary')
-
+    date = db.Column(db.String)
+    content = db.Column(db.TEXT)
     def __repr__(self):
         return "<Diary ({})>".format(self.name, self.id)
 
@@ -35,46 +36,42 @@ class Tag(db.Model):
         return "<Tag ({}) id={}>".format(self.name, self.id)
 
 
-# print("========testing============")
+
+
+# diary_folder = os.path.join(os.path.join(basedir, 'static'), 'diary')#C:\Users\ylxh5\Documents\blog_design\app\static\diary
+#
+# tags = ('title:', 'tags:', 'date:', 'content:')
+# diary_collections=[]
+# for file in os.listdir(diary_folder):
+#     file_dir = os.path.join(diary_folder, file)
+#     diary_dict = {}
+#     with open(file_dir) as f:
+#         lines = f.readlines()
+#         flag = 0
+#         for line in lines:
+#             line = line.strip('\n\r')
+#             if not line:
+#                 continue
+#             if line in tags:
+#                 tag=line.strip(':')
+#                 diary_dict[tag]=''
+#             else:
+#                 if tag=='tags':
+#                     diary_dict[tag] = line.lstrip().split(';')
+#                 else:
+#                     diary_dict[tag]=diary_dict[tag]+line.lstrip()+'\n\r'
+#         diary_collections.append(diary_dict)
+#
+#
 # db.drop_all()
 # db.create_all()
-# # diarys=[Diary(name='d1'),Diary(name='d2'),Diary(name='d3')]
-# # for diary in diarys:
-# #     diary.tags=[Tag(name=str(diary)+'1'),Tag(name=str(diary)+'2')]
-# # db.session.add_all(diarys)
-# # db.session.commit()
+# insert_list=[]
+# for diary in diary_collections:
+#     temp_diary=Diary(name=diary['title'], date=diary['date'], content=diary['content'])
+#     temp_diary.tags=[Tag(name=i) for i in diary['tags']]
+#     insert_list.append(temp_diary)
+# db.session.add_all(insert_list)
+# db.session.commit()
 # #
 # for i in db.session.query(Diary).all():
 #     print(i.tags)
-
-
-
-print(basedir)
-
-diary_folder = os.path.join(os.path.join(basedir, 'static'), 'diary')
-print(diary_folder)
-
-tags = ('title:', 'tags:', 'date:', 'content:')
-for file in os.listdir(diary_folder):
-    file_dir = os.path.join(diary_folder, file)
-    diary_dict = {}
-    with open(file_dir) as f:
-        lines = f.readlines()
-        flag = 0
-        for line in lines:
-            line = line.strip('\n\r')
-            if not line:
-                continue
-            print(line)
-            if line in tags:
-                tag=line.strip(':')
-                diary_dict[tag]=''
-            else:
-                if tag=='tags':
-                    diary_dict[tag] = line.lstrip().split(';')
-                else:
-                    diary_dict[tag]=diary_dict[tag]+line.lstrip()+'\n\r'
-        for i in diary_dict:
-            print(i)
-            print(diary_dict[i])
-    break
