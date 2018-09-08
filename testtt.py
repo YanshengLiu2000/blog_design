@@ -1,29 +1,34 @@
-class Test:
-    def __init__(self,a=0,b=0,c=0):
-        self.a=a
-        self.b=b
-        self.c=c
-
+# Definition for singly-linked list.
+class ListNode(object):
+    def __init__(self, x):
+        self.val = x
+        self.next = None
     def __repr__(self):
-        return '<This is Test a:{},b:{},c{}>'.format(self.a, self.b,self.c)
+        return "<{}>".format(self.val)
 
-    def func1(self):
-        print("this is func1_1")
-        self.visit={}
-        print(self.visit)
+class Solution(object):
+    def detectCycle(self, head):
+        """
+        :type head: ListNode
+        :rtype: ListNode
+        """
+#         https://www.cnblogs.com/hiddenfox/p/3408931.html
+        if head is None or head.next is None:
+            return None
+        slow,fast = head, head
+        while fast and fast.next:
+            slow=slow.next
+            fast=fast.next.next
+            if fast is slow:
+                slow=head
+                while True:
+                    slow=slow.next
+                    fast=fast.next
+                    if fast is slow:
+                        return fast
+        return None
 
-        print("this is func1_2")
-        self.func2()
-        print(self.visit)
-        print('This is func1_3')
-
-    def func2(self):
-        self.visit[1]=1
-        self.visit[2]=2
-        self.visit[3]=3
-        print("This is func2")
-
-
-# print(Test())
-
-print(Test().func1())
+head=ListNode(1)
+head.next=ListNode(2)
+head.next.next=head
+print(Solution().detectCycle(head))
