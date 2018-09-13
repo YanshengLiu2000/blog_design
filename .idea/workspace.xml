@@ -2,136 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4651864c-dddf-4eff-804e-e250054c2ff6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/main/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/about_me.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/after_login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/diary_details.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/diary_details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/reactTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/resume.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/resume.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/tags.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_home.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/.idea/test_html.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/assets/css/admin.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/assets/css/amazeui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/assets/css/amazeui.flat.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/assets/css/amazeui.flat.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/assets/css/amazeui.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/assets/css/app.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/assets/css/lw-admin.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/diary/day11" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/assets/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/assets/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/assets/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/assets/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/assets/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/assets/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/assets/i/app-icon72x72@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/assets/i/b1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/assets/i/b2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/assets/i/b3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/assets/i/examples/admin-chrome.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/assets/i/examples/admin-firefox.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/assets/i/examples/admin-ie.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/assets/i/examples/admin-opera.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/assets/i/examples/admin-safari.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/assets/i/examples/adminPage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/assets/i/examples/blogPage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/assets/i/examples/landing.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/assets/i/examples/landingPage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/assets/i/examples/loginPage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/assets/i/examples/sidebarPage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/assets/i/f10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/assets/i/f12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/assets/i/f13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/assets/i/f14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/assets/i/f15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/assets/i/f16.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/assets/i/f16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/assets/i/f161.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/assets/i/f17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/assets/i/f18.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/assets/i/f19.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/assets/i/f20.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/assets/i/f22.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/assets/i/f4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/assets/i/f5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/assets/i/f6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/assets/i/f7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/assets/i/f8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/assets/i/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/assets/i/startup-640x1096.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/assets/js/amazeui.ie8polyfill.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/assets/js/amazeui.ie8polyfill.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/assets/js/amazeui.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/assets/js/amazeui.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/assets/js/amazeui.widgets.helper.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/assets/js/amazeui.widgets.helper.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/assets/js/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/assets/js/handlebars.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/assets/js/img.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/assets/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/assets/js/jquery.waterfall.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/assets/js/pinto.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/base.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/footer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/images/01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/images/02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/images/03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/images/04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/images/05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/images/06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/images/07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/images/08.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/images/09.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/images/10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/images/11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/images/12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/images/13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/images/14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/images/15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/images/16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/images/17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/images/18.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/images/19.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/images/20.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/images/21.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/images/22.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/images/23.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/images/24.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/images/25.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/images/26.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/images/27.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/images/28.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/images/29.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/images/30.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/images/wood.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/lw-article-fullwidth.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/lw-article.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/diary_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/lw-category-sidebar.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/lw-img.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/lw-index-center.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/lw-index-nosidebar.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/lw-index-noslider.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/lw-index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/lw-log.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/lw-re.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/lw-timeline.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/test_diary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/test_home22.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/test_timeline.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/找网站模板就上【模板之家】cssMoban.com.url" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/test_html/说明.txt" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -188,13 +59,13 @@
           <entry key="project.open.time.11" value="3" />
           <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.13" value="4" />
-          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.14" value="2" />
           <entry key="project.open.time.15" value="3" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="19" />
+          <entry key="project.opened" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -218,12 +89,13 @@
           <entry key="test1" value="5" />
           <entry key="test2" value="7" />
           <entry key="test3" value="6" />
+          <entry key="todo" value="106" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="50" />
-          <entry key="PLAIN_TEXT" value="30" />
+          <entry key="PLAIN_TEXT" value="31" />
           <entry key="Python" value="25" />
         </counts>
       </usages-collector>
@@ -231,7 +103,7 @@
         <counts>
           <entry key="HTML" value="1433" />
           <entry key="JavaScript" value="3" />
-          <entry key="PLAIN_TEXT" value="4785" />
+          <entry key="PLAIN_TEXT" value="4891" />
           <entry key="Python" value="2855" />
         </counts>
       </usages-collector>
@@ -256,21 +128,13 @@
           <entry key="test1" value="2" />
           <entry key="test2" value="2" />
           <entry key="test3" value="2" />
+          <entry key="todo" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/templates/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/templates/header.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -283,7 +147,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/main/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="563">
+            <state relative-caret-position="578">
               <caret line="38" column="11" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
               <folding>
                 <marker date="1536836553742" expanded="true" signature="690:738" ph="..." />
@@ -305,7 +169,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/templates/diary_details.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1717">
+            <state relative-caret-position="527">
               <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
             </state>
           </provider>
@@ -316,18 +180,24 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
               <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-              <folding>
-                <element signature="e#314#349#0#HTML" expanded="true" />
-              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/static/diary/day11">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/static/diary/day11">
+        <entry file="file://$PROJECT_DIR$/todo">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+            <state relative-caret-position="102">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -423,6 +293,7 @@
         <option value="$PROJECT_DIR$/app/templates/header.html" />
         <option value="$PROJECT_DIR$/app/templates/resume.html" />
         <option value="$PROJECT_DIR$/app/static/diary/day11" />
+        <option value="$PROJECT_DIR$/todo" />
       </list>
     </option>
   </component>
@@ -432,7 +303,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="60" />
     <option name="width" value="1260" />
     <option name="height" value="1087" />
@@ -445,6 +316,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -473,7 +345,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -610,7 +481,7 @@
     <frame x="60" y="0" width="1260" height="1087" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17083333" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17333333" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -651,13 +522,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/templates/common/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -708,13 +572,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/myself.html" />
-    <entry file="file://$PROJECT_DIR$/app/templates/about_me.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/about_me.html" />
     <entry file="file://$PROJECT_DIR$/app/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -747,34 +605,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/after_login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/reactTest.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/tags.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/after_login.html" />
+    <entry file="file://$PROJECT_DIR$/app/templates/reactTest.html" />
+    <entry file="file://$PROJECT_DIR$/app/templates/tags.html" />
+    <entry file="file://$PROJECT_DIR$/app/templates/login.html" />
     <entry file="file://$PROJECT_DIR$/app/static/diary/day6">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -839,20 +673,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/test_html/lw-index-noslider.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="64" selection-start-line="11" selection-start-column="64" selection-end-line="11" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/test_home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="57" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/test_html/lw-index-noslider.html" />
+    <entry file="file://$PROJECT_DIR$/app/templates/test_home.html" />
     <entry file="file://$PROJECT_DIR$/app/static/diary/day9">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -860,15 +682,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/test_html/base.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/test_html/header.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/test_html/footer.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/test_html/base.html" />
+    <entry file="file://$PROJECT_DIR$/app/templates/test_html/header.html" />
+    <entry file="file://$PROJECT_DIR$/app/templates/test_html/footer.html" />
     <entry file="file://$PROJECT_DIR$/run.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -886,24 +702,10 @@
     <entry file="file://$PROJECT_DIR$/app/templates/footer.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/diary_details.html">
+    <entry file="file://$PROJECT_DIR$/app/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1717">
-          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/old_files/resume.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="19" selection-end-column="100" />
+        <state relative-caret-position="680">
+          <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -916,7 +718,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/main/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
+        <state relative-caret-position="578">
           <caret line="38" column="11" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
           <folding>
             <marker date="1536836553742" expanded="true" signature="690:738" ph="..." />
@@ -925,17 +727,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/diary_list.html">
+    <entry file="file://$PROJECT_DIR$/app/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="6" />
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/base.html">
+    <entry file="file://$PROJECT_DIR$/app/templates/diary_details.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
+        <state relative-caret-position="527">
+          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -956,10 +758,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/old_files/resume.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="19" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/diary_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/static/diary/day11">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
