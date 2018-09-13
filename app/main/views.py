@@ -24,9 +24,16 @@ def resume():
 def about_me():
     return render_template("about_me.html")
 
-@main.route('/diary/<id>', methods=['GET'])
-def diary_detail(id):
-    diary=db.session.query(models.Diary).get(id)
-    print("TEST!!!!id == ",id)
-    print("diary ==",diary)
-    return render_template('diary_details.html',diary=diary)
+@main.route('/diary_list', methods=['GET'])
+def diary_list():
+    return render_template("diary_list.html")
+
+# @main.route('/diary/<id>', methods=['GET'])
+# def diary_detail(id):
+#     diary=db.session.query(models.Diary).get(id)
+#     print("TEST!!!!id == ",id)
+#     print("diary ==",diary)
+#     return render_template('diary_details.html',diary=diary)
+@main.route('/test',methods=['GET'])
+def diary_detail():
+    return render_template('diary_details.html')

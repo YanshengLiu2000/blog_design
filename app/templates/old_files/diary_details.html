@@ -1,0 +1,17 @@
+{% extends "common/base.html" %}
+
+{% block content %}
+<h1>This is the diary_details page!'diary_details.html'</h1><br><br>
+
+<h1>{{ diary.name }}</h1><br>
+    <h2>{{ diary.date }}</h2><br>
+    {% for tag in diary.tags %}
+    <h3>{{ tag.name.strip('\t\r') }} </h3>
+    {% endfor %}
+    <br>
+    <br>
+    {{ diary.content }}
+    =================================================================================
+    <br>
+    <br>
+{% endblock %}
