@@ -1,34 +1,28 @@
-# Definition for singly-linked list.
-class ListNode(object):
-    def __init__(self, x):
-        self.val = x
-        self.next = None
-    def __repr__(self):
-        return "<{}>".format(self.val)
-
 class Solution(object):
-    def detectCycle(self, head):
+    def nextPermutation(self, nums):
         """
-        :type head: ListNode
-        :rtype: ListNode
+        :type nums: List[int]
+        :rtype: void Do not return anything, modify nums in-place instead.
         """
-#         https://www.cnblogs.com/hiddenfox/p/3408931.html
-        if head is None or head.next is None:
-            return None
-        slow,fast = head, head
-        while fast and fast.next:
-            slow=slow.next
-            fast=fast.next.next
-            if fast is slow:
-                slow=head
-                while True:
-                    slow=slow.next
-                    fast=fast.next
-                    if fast is slow:
-                        return fast
-        return None
+        if not nums or len(nums)==1:
+            return
+        temp=None
+        for i in range(len(nums)-1,0,-1):
+            if nums[i]<=nums[i-1]:
+                continue
+            else:
+                temp=i-1
+                break
+        if temp!=None:
+            for j in range(len(nums)-1,temp,-1):
+                if nums[j]>nums[temp]:
+                    nums[temp],nums[j] = nums[j], nums[temp]
+                    break
+            for i in range(temp+1,len(nums)-1):
+                if nums[i]>nums[i+1]:
+                    nums[i],nums[i+1] = nums[i+1], nums[i]
+        else:
+            nums.sort()
+        return nums
 
-head=ListNode(1)
-head.next=ListNode(2)
-head.next.next=head
-print(Solution().detectCycle(head))
+print(Solution().nextPermutation([5,4,7,5,3,2]))

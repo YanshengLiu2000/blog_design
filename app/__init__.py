@@ -13,7 +13,7 @@ app.register_blueprint(admin_bluepoint, url_prefix='')
 
 basedir=os.path.abspath(os.path.dirname(__file__))
 
-app.config['SQLALCHEMY_DATABASE_URI'] ='sqlite:///' + os.path.join(basedir, 'test.db')
-app.config['SQLALCHEMY_COMMIT_ON_TEARDOWN'] = True
+# app.config['SQLALCHEMY_DATABASE_URI'] ='sqlite:///' + os.path.join(basedir, 'test.db')
+# app.config['SQLALCHEMY_COMMIT_ON_TEARDOWN'] = True
 
 
